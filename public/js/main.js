@@ -1,6 +1,6 @@
 console.log("hello YouTube-Api-Client!");
 
-const urlApi = 'http://localhost:4000/videos';
+const urlApi = 'https://thefra-videos-api.herokuapp.com/videos';
 const filterInput = document.querySelector('#filter');
 
 let allVideos = [];
