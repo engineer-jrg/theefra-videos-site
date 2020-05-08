@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+  <title>TheEfra Videos</title>
+  <link rel="stylesheet" href="./css/bootswatch.lux.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="mt-4">
+      <div class="text-center">
+        <h1 class="text-center text-capitalize text-white display-4 p-3">
+          <span class="bg-danger p-3 border rounded">💻 TheEfra Videos 📹</span>
+        </h1>
+        <a href="https://www.youtube.com/channel/UCC7y8uQQXtSxXDGle76HAxw" class="btn btn-outline-secondary btn-sm" target="_blank">Canal en youtube ↗</a>
+      </div>
+    </header>
+    <div class="search-container">
+      <form>
+        <div class="form-group">
+          <label for="filter">Buscar</label>
+          <input type="text" class="form-control border rounded" id="filter" placeholder="ingrese una palabra relacionada">
+        </div>
+      </form>
+    </div>
+    <hr class="bg-light">
+    <div id="videos-container" class="card-deck mr-4 ml-4"></div>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.video-card {
+    width: 19rem;
+    min-width: 15rem;
+    max-width: 26rem;
+}
+
+.video-card {
+    margin-bottom: 2rem !important;
+    -webkit-box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.87);
+    -moz-box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.87);
+    box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.87);
+}
+
+#videos-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-container {
+    padding: 0 2rem;
+}
+
+#content-title {
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+}
+
+.hide-video {
+    display: none;
+}
